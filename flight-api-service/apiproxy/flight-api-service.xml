@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<APIProxy revision="1" name="flight-api-service">
+    <Basepaths>/flight-v1</Basepaths>
+    <ConfigurationVersion majorVersion="4" minorVersion="0"/>
+    <CreatedAt>1583296198674</CreatedAt>
+    <CreatedBy>rmaharaddi@dxc.com</CreatedBy>
+    <Description>flightService API documentation</Description>
+    <DisplayName>flight-V1</DisplayName>
+    <LastModifiedAt>1583298908136</LastModifiedAt>
+    <LastModifiedBy>rmaharaddi@dxc.com</LastModifiedBy>
+    <ManifestVersion>SHA-512:c22fc1f7b63013337ab22ebf15fa42768cd7a1e257222cb92f81748dd6acdc14755c877ecff1f02e6e39186096d718fe3f79a4a20821c138b14ce576188e74fe</ManifestVersion>
+    <Policies>
+        <Policy>Assign-Message-1</Policy>
+        <Policy>Quota-1</Policy>
+    </Policies>
+    <ProxyEndpoints>
+        <ProxyEndpoint>default</ProxyEndpoint>
+    </ProxyEndpoints>
+    <Resources/>
+    <Spec></Spec>
+    <TargetServers/>
+    <TargetEndpoints>
+        <TargetEndpoint>default</TargetEndpoint>
+    </TargetEndpoints>
+</APIProxy>

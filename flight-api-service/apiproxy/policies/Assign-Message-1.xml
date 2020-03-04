@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<AssignMessage async="false" continueOnError="false" enabled="true" name="Assign-Message-1">
+    <DisplayName>Assign Message-1</DisplayName>
+    <Properties/>
+    <Set>
+        <Payload contentType="application/json">
+             {"error_message":"API Permit Quota Exhausted"}
+             </Payload>
+        <StatusCode>429</StatusCode>
+        <ReasonPhrase>Rejected by Apigee</ReasonPhrase>
+    </Set>
+    <AssignTo createNew="false" transport="http" type="response"/>
+</AssignMessage>
